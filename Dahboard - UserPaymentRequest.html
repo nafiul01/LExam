@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LExam Dashboard - Chapter</title>
+    <title>LExam Dashboard - User Payment Request</title>
     <link rel="shortcut icon" type="x-icon" href="img/Logo.png">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="output.css">
@@ -133,7 +133,7 @@
 
         <section class="flex flex-col xl:flex-row xl:items-center justify-between px-5 py-2 xl:py-5 gap-4">
 
-          <p class="font-bold text-tColor2 text-lg">CHAPTER LIST</p>
+          <p class="font-bold text-tColor2 text-lg">USER PAYMENT REQUEST</p>
 
             <!-- Notification & User -->
             <div class="text-xs xl:text-base flex items-center gap-4 xl:gap-8 ml-auto fixed xl:static top-2 right-6 z-10 scale-75 xl:scale-100">
@@ -172,9 +172,7 @@
 
 
 
-        <section class="px-5 py-5">
-
-          <button><span class="text-red-500">Add Chapter</span><i class="fa-solid fa-plus menu-list-active rounded-[50%] px-[9px] py-[8px] ml-3"></i></button>
+        <section class="px-5">
 
           <div class="flex justify-between mt-5">
             <div class="bg-white relative rounded-md w-fit shadow">
@@ -209,40 +207,31 @@
               <table class="table-auto text-xs md:text-sm profile-table w-[230%] md:w-full">
                 <thead>
                   <tr>
-                    <th>SUBJECT CODE</th>
-                    <th>SUB NAME</th>
-                    <th>SUB NAME</th>
-                    <th>BJS</th>
-                    <th>BAR COUNCIL</th>
+                    <th>NAME</th>
+                    <th>SENDER NUMBER</th>
+                    <th>METHOD</th>
+                    <th>TNX-ID</th>
+                    <th>AMOUNT</th>
+                    <th>PACKAGE-AMOUNT</th>
+                    <th>PAYMENT</th>
                     <th>ACTION</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <td class="font-semibold">#BN-11</td>
-                    <td>Bangla 1st</td>
-                    <td>Bangla 2nd</td>
-                    <td>Yes</td>
-                    <td>No</td>
+                    <td class="font-semibold">User-10</td>
+                    <td>017000</td>
+                    <td>Bkash</td>
+                    <td>23243</td>
+                    <td>250</td>
+                    <td>500 taka</td>
+                    <td>Unpaid</td>
                     <td>
-                      <button class="bg-blue-500 text-white px-3 py-1 rounded">Chapter</button>
-                      <button class="bg-yellow-200 text-yellow-600 px-3 py-1 rounded">Update</button>
-                      <button class="bg-red-200 text-red-600 px-3 py-1 rounded">Delete</button>
+                      <button class="bg-blue-500 text-white px-3 py-1 rounded">Accept</button>
+                      <button class="bg-red-200 text-red-600 px-3 py-1 rounded">Reject</button>
                     </td>
                   </tr>
 
-                  <tr>
-                    <td class="font-semibold">#EN-22</td>
-                    <td>English 1st</td>
-                    <td>English 2nd</td>
-                    <td>Yes</td>
-                    <td>No</td>
-                    <td>
-                      <button class="bg-blue-500 text-white px-3 py-1 rounded">Chapter</button>
-                      <button class="bg-yellow-200 text-yellow-600 px-3 py-1 rounded">Update</button>
-                      <button class="bg-red-200 text-red-600 px-3 py-1 rounded">Delete</button>
-                    </td>
-                  </tr>
 
                 </tbody>
               </table>
