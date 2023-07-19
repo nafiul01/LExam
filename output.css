@@ -818,6 +818,10 @@ h6 {
   height: 1.25rem;
 }
 
+.h-56 {
+  height: 14rem;
+}
+
 .h-8 {
   height: 2rem;
 }
@@ -826,16 +830,12 @@ h6 {
   height: 100vh;
 }
 
-.h-80 {
-  height: 20rem;
+.h-20 {
+  height: 5rem;
 }
 
-.h-48 {
-  height: 12rem;
-}
-
-.h-56 {
-  height: 14rem;
+.h-24 {
+  height: 6rem;
 }
 
 .max-h-\[800px\] {
@@ -1204,6 +1204,11 @@ h6 {
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -1222,16 +1227,6 @@ h6 {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
 }
 
 .font-bold {
@@ -1364,6 +1359,10 @@ h6 {
     display: block;
   }
 
+  .md\:h-36 {
+    height: 9rem;
+  }
+
   .md\:w-full {
     width: 100%;
   }
@@ -1375,6 +1374,16 @@ h6 {
   .md\:text-sm {
     font-size: 0.875rem;
     line-height: 1.25rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:h-36 {
+    height: 9rem;
+  }
+
+  .lg\:h-44 {
+    height: 11rem;
   }
 }
 
@@ -1417,12 +1426,20 @@ h6 {
     height: 100%;
   }
 
+  .xl\:h-56 {
+    height: 14rem;
+  }
+
   .xl\:max-h-\[470px\] {
     max-height: 470px;
   }
 
   .xl\:w-1\/2 {
     width: 50%;
+  }
+
+  .xl\:w-1\/3 {
+    width: 33.333333%;
   }
 
   .xl\:w-3\/4 {
@@ -1436,10 +1453,6 @@ h6 {
   .xl\:w-fit {
     width: -moz-fit-content;
     width: fit-content;
-  }
-
-  .xl\:w-1\/3 {
-    width: 33.333333%;
   }
 
   .xl\:scale-100 {
