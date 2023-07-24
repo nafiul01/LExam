@@ -726,6 +726,10 @@ h6 {
   margin-bottom: 1rem;
 }
 
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
 .ml-3 {
   margin-left: 0.75rem;
 }
@@ -818,24 +822,12 @@ h6 {
   height: 1.25rem;
 }
 
-.h-56 {
-  height: 14rem;
-}
-
 .h-8 {
   height: 2rem;
 }
 
 .h-screen {
   height: 100vh;
-}
-
-.h-20 {
-  height: 5rem;
-}
-
-.h-24 {
-  height: 6rem;
 }
 
 .max-h-\[800px\] {
@@ -1378,10 +1370,6 @@ h6 {
 }
 
 @media (min-width: 1024px) {
-  .lg\:h-36 {
-    height: 9rem;
-  }
-
   .lg\:h-44 {
     height: 11rem;
   }
@@ -1422,12 +1410,12 @@ h6 {
     height: 3rem;
   }
 
-  .xl\:h-full {
-    height: 100%;
-  }
-
   .xl\:h-56 {
     height: 14rem;
+  }
+
+  .xl\:h-full {
+    height: 100%;
   }
 
   .xl\:max-h-\[470px\] {

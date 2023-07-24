@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LExam Dashboard - LExam Banner</title>
+    <title>LExam Dashboard - LExam Course Add</title>
     <link rel="shortcut icon" type="x-icon" href="img/Logo.png">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="output.css">
@@ -133,7 +133,7 @@
 
         <section class="flex flex-col xl:flex-row xl:items-center justify-between px-5 py-2 xl:py-5 gap-4">
 
-          <p class="font-bold text-tColor2 text-lg">LExam BANNER</p>
+          <p class="font-bold text-tColor2 text-lg">LExam Course Add</p>
 
             <!-- Notification & User -->
             <div class="text-xs xl:text-base flex items-center gap-4 xl:gap-8 ml-auto fixed xl:static top-2 right-6 z-10 scale-75 xl:scale-100">
@@ -171,16 +171,44 @@
 
 
 
-        <section class="mx-5 p-5 rounded-md bg-white grid gap-5">
 
-          <p class="font-bold">Banner Add</p>
-          <div class="flex flex-col xl:flex-row xl:items-center mt-5 gap-2">
-            <span class="font-semibold min-w-[100px] mr-10">Banner Image</span>
-            <input class="" type="file">
-            <button class="primary-btn w-fit" type="submit">Add</button>
-          </div>
-          
+        <section class="bg-white p-5">
+
+
+          <form action="" class="mt-5">
+
+            <div class="flex flex-col xl:flex-row xl:items-center mt-5">
+              <span class="font-semibold text-tColor min-w-[140px] mr-10">Course Name</span>
+              <input class="border-[1px] border-black rounded focus:outline-none p-2 w-full mt-2 xl:mt-0" type="text">
+            </div>
+
+            <div class="flex flex-col xl:flex-row xl:items-center mt-5">
+              <span class="font-semibold text-tColor min-w-[140px] mr-10">Course Price</span>
+              <input class="border-[1px] border-black rounded focus:outline-none p-2 w-full mt-2 xl:mt-0" type="text">
+            </div>
+
+            <div class="flex flex-col xl:flex-row xl:items-center mt-5">
+              <span class="font-semibold text-tColor min-w-[140px] mr-10">Discount</span>
+              <input class="border-[1px] border-black rounded focus:outline-none p-2 w-full mt-2 xl:mt-0" type="text">
+            </div>
+
+            <div class="flex flex-col xl:flex-row xl:items-center mt-5">
+              <span class="font-semibold text-tColor min-w-[140px] mr-10">Description</span>
+              <textarea class="border-[1px] border-black rounded focus:outline-none p-2 w-full mt-2 xl:mt-0" name="" id=""></textarea>
+            </div>
+
+            <div class="flex flex-col xl:flex-row xl:items-center mt-5">
+              <span class="font-semibold text-tColor min-w-[140px] mr-10">What you will learn</span>
+              <textarea class="border-[1px] border-black rounded focus:outline-none p-2 w-full mt-2 xl:mt-0" name="" id=""></textarea>
+            </div>
+
+
+            <button class="primary-btn mt-10" type="submit">Add</button>
+
+          </form>
+
         </section>
+
     
 
     </div>
